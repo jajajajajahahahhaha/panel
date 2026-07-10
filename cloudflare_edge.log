@@ -44,3 +44,5 @@
 2026-07-10T11:19:15Z INF precheck complete hard_fail=false run_id=705aaa6e-34f2-402e-af80-a36305d1e467 suggested_protocol=quic
 2026-07-10T11:21:00Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:8080
 2026-07-10T11:21:00Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://pmc-placed-subscribers-gregory.trycloudflare.com/api/stats event=0 ip=198.41.200.33 type=http
+2026-07-10T11:21:57Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:8080
+2026-07-10T11:21:57Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://pmc-placed-subscribers-gregory.trycloudflare.com/api/stats event=0 ip=198.41.200.33 type=http
