@@ -20,3 +20,25 @@
 2026-07-10T22:32:51Z INF Starting metrics server on 127.0.0.1:20241/metrics
 2026-07-10T22:32:51Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.107
 2026-07-10T22:32:51Z INF Registered tunnel connection connIndex=0 connection=02fae355-bcec-4185-a786-bce1dd2e2839 event=0 ip=198.41.192.107 location=sjc01 protocol=quic
+2026-07-10T22:32:57Z INF +-------------------------------------------------------------------------------------+
+2026-07-10T22:32:57Z INF |                               CONNECTIVITY PRE-CHECKS                               |
+2026-07-10T22:32:57Z INF +-------------------------------------------------------------------------------------+
+2026-07-10T22:32:57Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                       |
+2026-07-10T22:32:57Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-07-10T22:32:57Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-07-10T22:32:57Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-07-10T22:32:57Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-07-10T22:32:57Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-07-10T22:32:57Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-07-10T22:32:57Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |
+2026-07-10T22:32:57Z INF |                                                                                     |
+2026-07-10T22:32:57Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'quic' as primary protocol.  |
+2026-07-10T22:32:57Z INF +-------------------------------------------------------------------------------------+
+2026-07-10T22:32:57Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=5b358d4f-87d6-43b8-82a0-95fdd4d5153f status=pass target=region1.v2.argotunnel.com
+2026-07-10T22:32:57Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=5b358d4f-87d6-43b8-82a0-95fdd4d5153f status=pass target=region2.v2.argotunnel.com
+2026-07-10T22:32:57Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=5b358d4f-87d6-43b8-82a0-95fdd4d5153f status=pass target=region1.v2.argotunnel.com
+2026-07-10T22:32:57Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=5b358d4f-87d6-43b8-82a0-95fdd4d5153f status=pass target=region2.v2.argotunnel.com
+2026-07-10T22:32:57Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=5b358d4f-87d6-43b8-82a0-95fdd4d5153f status=pass target=region1.v2.argotunnel.com
+2026-07-10T22:32:57Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=5b358d4f-87d6-43b8-82a0-95fdd4d5153f status=pass target=region2.v2.argotunnel.com
+2026-07-10T22:32:57Z INF precheck component="Cloudflare API" details="API is reachable" run_id=5b358d4f-87d6-43b8-82a0-95fdd4d5153f status=pass target=api.cloudflare.com:443
+2026-07-10T22:32:57Z INF precheck complete hard_fail=false run_id=5b358d4f-87d6-43b8-82a0-95fdd4d5153f suggested_protocol=quic
