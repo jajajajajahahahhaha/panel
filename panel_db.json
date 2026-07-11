@@ -54,7 +54,7 @@
         "used_bytes": 0,
         "clean_ip": "pvphspanel.duckdns.org",
         "custom_host": "pvphspanel.duckdns.org",
-        "status": "ONLINE",
+        "status": "OFFLINE",
         "last_active_time": 1783794020.3819888,
         "down_speed": 0,
         "up_speed": 0,
