@@ -47,5 +47,29 @@
         "tg_user_id": "8517754313",
         "proxy_protocol": "socks5",
         "subscription_alias": ""
+    },
+    "admin": {
+        "uuid": "b092e508-613c-4ed5-9440-f692175c7b72",
+        "total_limit_bytes": 0,
+        "used_bytes": 0,
+        "clean_ip": "pvphspanel.duckdns.org",
+        "custom_host": "pvphspanel.duckdns.org",
+        "status": "OFFLINE",
+        "last_active_time": 0,
+        "down_speed": 0,
+        "up_speed": 0,
+        "created_at": 1783793854,
+        "expire_seconds": 2592000,
+        "active": true,
+        "coefficient": 1.0,
+        "real_traffic": true,
+        "max_ips": 10,
+        "is_proxy_type": false,
+        "proxy_protocol": "socks5",
+        "use_runner_balancer": true,
+        "optimization": true,
+        "private_tunnel_enabled": false,
+        "private_tunnel_host": "",
+        "subscription_alias": ""
     }
 }
