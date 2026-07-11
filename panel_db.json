@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "appliances-olive-resident-butterfly.trycloudflare.com",
+        "private_tunnel_host": "poultry-taxation-aside-causes.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -44,6 +44,8 @@
         "optimization": true,
         "private_tunnel_enabled": false,
         "private_tunnel_host": "",
-        "tg_user_id": "8517754313"
+        "tg_user_id": "8517754313",
+        "proxy_protocol": "socks5",
+        "subscription_alias": ""
     }
 }
