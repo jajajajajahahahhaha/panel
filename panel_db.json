@@ -68,8 +68,8 @@
         "proxy_protocol": "socks5",
         "use_runner_balancer": true,
         "optimization": true,
-        "private_tunnel_enabled": false,
-        "private_tunnel_host": "",
+        "private_tunnel_enabled": true,
+        "private_tunnel_host": "batteries-communist-firmware-gadgets.trycloudflare.com",
         "subscription_alias": ""
     }
 }
