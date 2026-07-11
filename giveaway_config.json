@@ -3,8 +3,10 @@
     "volume_value": 1.0,
     "volume_unit": "GB",
     "volume_gb": 1.0,
-    "claimed_count": 0,
-    "claimed_users": [],
-    "status": "active",
+    "claimed_count": 1,
+    "claimed_users": [
+        "8517754313"
+    ],
+    "status": "finished",
     "channel_msg_id": null
 }
