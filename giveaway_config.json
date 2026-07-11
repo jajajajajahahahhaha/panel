@@ -1,0 +1,10 @@
+{
+    "max_claims": 1,
+    "volume_value": 1.0,
+    "volume_unit": "GB",
+    "volume_gb": 1.0,
+    "claimed_count": 0,
+    "claimed_users": [],
+    "status": "active",
+    "channel_msg_id": null
+}
