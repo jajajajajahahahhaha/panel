@@ -42,3 +42,10 @@
 2026-07-11T15:13:05Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=7f378de8-d796-4d11-8755-d207373b1e56 status=pass target=region2.v2.argotunnel.com
 2026-07-11T15:13:05Z INF precheck component="Cloudflare API" details="API is reachable" run_id=7f378de8-d796-4d11-8755-d207373b1e56 status=pass target=api.cloudflare.com:443
 2026-07-11T15:13:05Z INF precheck complete hard_fail=false run_id=7f378de8-d796-4d11-8755-d207373b1e56 suggested_protocol=quic
+2026-07-11T15:22:59Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-07-11T15:22:59Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-07-11T15:22:59Z WRN failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-07-11T15:22:59Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-07-11T15:22:59Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2026-07-11T15:23:01Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-07-11T15:23:01Z INF Registered tunnel connection connIndex=0 connection=85c6a75d-65df-43b0-b067-76d168fc8f92 event=0 ip=198.41.192.167 location=msp01 protocol=quic
