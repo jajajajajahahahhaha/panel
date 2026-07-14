@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "foods-drinks-projected-treated.trycloudflare.com",
+        "private_tunnel_host": "dense-totally-input-accomplished.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -69,7 +69,7 @@
         "use_runner_balancer": true,
         "optimization": true,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "bean-captain-commissioner-decrease.trycloudflare.com",
+        "private_tunnel_host": "qld-reserve-lions-week.trycloudflare.com",
         "subscription_alias": ""
     }
 }
