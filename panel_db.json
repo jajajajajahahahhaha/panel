@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "creature-beast-reid-daughters.trycloudflare.com",
+        "private_tunnel_host": "clinical-leu-into-direct.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -69,7 +69,7 @@
         "use_runner_balancer": true,
         "optimization": true,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "all-files-representations-empty.trycloudflare.com",
+        "private_tunnel_host": "surprising-standards-lady-linux.trycloudflare.com",
         "subscription_alias": ""
     }
 }
