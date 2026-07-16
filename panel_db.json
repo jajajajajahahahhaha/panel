@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "connecticut-profits-creek-cuts.trycloudflare.com",
+        "private_tunnel_host": "safe-brave-cork-processes.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -69,7 +69,7 @@
         "use_runner_balancer": true,
         "optimization": true,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "blocks-eval-alfred-flexibility.trycloudflare.com",
+        "private_tunnel_host": "venice-pentium-attributes-alpine.trycloudflare.com",
         "subscription_alias": ""
     }
 }
