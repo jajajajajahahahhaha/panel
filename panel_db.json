@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "routes-reseller-beginner-percent.trycloudflare.com",
+        "private_tunnel_host": "posting-older-impact-actual.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -69,7 +69,7 @@
         "use_runner_balancer": true,
         "optimization": true,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "judy-excess-howto-articles.trycloudflare.com",
+        "private_tunnel_host": "directly-featuring-away-begins.trycloudflare.com",
         "subscription_alias": ""
     }
 }
