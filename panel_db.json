@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "butler-odds-coaching-irc.trycloudflare.com",
+        "private_tunnel_host": "penalties-scenarios-neighborhood-peak.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -69,7 +69,7 @@
         "use_runner_balancer": true,
         "optimization": true,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "occupied-puerto-associations-freebsd.trycloudflare.com",
+        "private_tunnel_host": "charm-daughters-epic-union.trycloudflare.com",
         "subscription_alias": ""
     }
 }
