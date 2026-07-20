@@ -71,5 +71,28 @@
         "private_tunnel_enabled": true,
         "private_tunnel_host": "mario-kit-bobby-gibraltar.trycloudflare.com",
         "subscription_alias": ""
+    },
+    "primeconfigfree_2": {
+        "uuid": "cfc2044a-b54a-4d75-a0e1-eb7a12ae1e25",
+        "total_limit_bytes": 5368709120,
+        "used_bytes": 0,
+        "clean_ip": "172.64.149.23",
+        "custom_host": "",
+        "status": "OFFLINE",
+        "last_active_time": 0,
+        "down_speed": 0,
+        "up_speed": 0,
+        "created_at": 1784516291,
+        "expire_seconds": 2592000,
+        "active": true,
+        "coefficient": 1.0,
+        "real_traffic": false,
+        "max_ips": 2,
+        "is_proxy_type": false,
+        "use_runner_balancer": false,
+        "optimization": true,
+        "private_tunnel_enabled": false,
+        "private_tunnel_host": "",
+        "tg_user_id": "8517754313"
     }
 }
