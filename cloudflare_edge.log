@@ -56,3 +56,10 @@
 2026-07-20T22:50:36Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.53
 2026-07-20T22:50:38Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
 2026-07-20T22:50:38Z INF Registered tunnel connection connIndex=0 connection=9ae169f2-5143-46da-9f08-ba768b9eaa24 event=0 ip=198.41.200.53 location=dfw08 protocol=quic
+2026-07-20T23:51:54Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-07-20T23:51:54Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-07-20T23:51:54Z WRN failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-07-20T23:51:54Z WRN Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-07-20T23:51:54Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.53
+2026-07-20T23:51:55Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-07-20T23:51:55Z INF Registered tunnel connection connIndex=0 connection=b5c43ccd-b820-49a8-957f-a176789cdac6 event=0 ip=198.41.200.53 location=dfw08 protocol=quic
