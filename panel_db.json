@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "evaluating-honors-might-florida.trycloudflare.com",
+        "private_tunnel_host": "spears-concrete-labeled-ken.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -69,7 +69,7 @@
         "use_runner_balancer": true,
         "optimization": true,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "browser-promise-latter-intellectual.trycloudflare.com",
+        "private_tunnel_host": "lifetime-courier-privileges-elevation.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_2": {
