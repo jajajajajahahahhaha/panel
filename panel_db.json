@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "discrete-crm-assumptions-persons.trycloudflare.com",
+        "private_tunnel_host": "hosting-tables-trucks-twin.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
