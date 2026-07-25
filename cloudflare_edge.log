@@ -82,3 +82,5 @@
 2026-07-25T15:09:27Z WRN failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.107
 2026-07-25T15:09:27Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.107
 2026-07-25T15:09:27Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.107
+2026-07-25T15:09:29Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.107
+2026-07-25T15:09:29Z INF Registered tunnel connection connIndex=0 connection=4f4d4b8a-aac7-40fd-9f9f-7e3ce5b884af event=0 ip=198.41.192.107 location=iad16 protocol=quic
