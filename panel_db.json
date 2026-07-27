@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "martial-refuse-vienna-baker.trycloudflare.com",
+        "private_tunnel_host": "formal-commissioner-hunting-stevens.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -69,7 +69,7 @@
         "use_runner_balancer": true,
         "optimization": true,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "picked-acres-tables-hostels.trycloudflare.com",
+        "private_tunnel_host": "experience-meditation-voting-prevent.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_2": {
