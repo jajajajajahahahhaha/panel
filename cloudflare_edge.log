@@ -1,86 +1,44 @@
-2026-07-28T11:20:35Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
-2026-07-28T11:20:35Z INF Requesting new quick Tunnel on trycloudflare.com...
-2026-07-28T11:20:38Z INF +--------------------------------------------------------------------------------------------+
-2026-07-28T11:20:38Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
-2026-07-28T11:20:38Z INF |  https://helping-answering-sweet-holidays.trycloudflare.com                                |
-2026-07-28T11:20:38Z INF +--------------------------------------------------------------------------------------------+
-2026-07-28T11:20:38Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
-2026-07-28T11:20:38Z INF Version 2026.7.3 (Checksum 9d71c677db00134c1bd4144b7783486b654ad281b1ea62b4972098d19f770f17)
-2026-07-28T11:20:38Z INF GOOS: linux, GOVersion: go1.26.4, GoArch: amd64
-2026-07-28T11:20:38Z INF Settings: map[ha-connections:1 protocol:quic url:http://127.0.0.1:8080]
-2026-07-28T11:20:38Z INF Autoupdate frequency is set autoupdateFreq=86400000
-2026-07-28T11:20:38Z INF Generated Connector ID: b25d1573-7caf-4f45-902f-f5be178bfc94
-2026-07-28T11:20:38Z INF Initial protocol quic
-2026-07-28T11:20:38Z INF ICMP proxy will use 10.1.0.14 as source for IPv4
-2026-07-28T11:20:38Z INF ICMP proxy will use fe80::3a33:c5ff:fedc:fecc in zone eth0 as source for IPv6
-2026-07-28T11:20:38Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 1001 is not between ping group 1 to 0"
-2026-07-28T11:20:38Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 1001 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
-2026-07-28T11:20:38Z INF ICMP proxy will use 10.1.0.14 as source for IPv4
-2026-07-28T11:20:38Z INF ICMP proxy will use fe80::3a33:c5ff:fedc:fecc in zone eth0 as source for IPv6
-2026-07-28T11:20:38Z INF Starting metrics server on 127.0.0.1:20241/metrics
-2026-07-28T11:20:38Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T11:20:38Z INF Registered tunnel connection connIndex=0 connection=31dd6eb1-ee54-443b-b20d-ab9c1b5e9969 event=0 ip=198.41.192.167 location=iad16 protocol=quic
-2026-07-28T11:20:44Z INF +-------------------------------------------------------------------------------------+
-2026-07-28T11:20:44Z INF |                               CONNECTIVITY PRE-CHECKS                               |
-2026-07-28T11:20:44Z INF +-------------------------------------------------------------------------------------+
-2026-07-28T11:20:44Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                       |
-2026-07-28T11:20:44Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
-2026-07-28T11:20:44Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
-2026-07-28T11:20:44Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |
-2026-07-28T11:20:44Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |
-2026-07-28T11:20:44Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
-2026-07-28T11:20:44Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
-2026-07-28T11:20:44Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |
-2026-07-28T11:20:44Z INF |                                                                                     |
-2026-07-28T11:20:44Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'quic' as primary protocol.  |
-2026-07-28T11:20:44Z INF +-------------------------------------------------------------------------------------+
-2026-07-28T11:20:44Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=72857ad5-86d7-4dfd-b09b-8c909487d55c status=pass target=region1.v2.argotunnel.com
-2026-07-28T11:20:44Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=72857ad5-86d7-4dfd-b09b-8c909487d55c status=pass target=region2.v2.argotunnel.com
-2026-07-28T11:20:44Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=72857ad5-86d7-4dfd-b09b-8c909487d55c status=pass target=region1.v2.argotunnel.com
-2026-07-28T11:20:44Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=72857ad5-86d7-4dfd-b09b-8c909487d55c status=pass target=region2.v2.argotunnel.com
-2026-07-28T11:20:44Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=72857ad5-86d7-4dfd-b09b-8c909487d55c status=pass target=region1.v2.argotunnel.com
-2026-07-28T11:20:44Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=72857ad5-86d7-4dfd-b09b-8c909487d55c status=pass target=region2.v2.argotunnel.com
-2026-07-28T11:20:44Z INF precheck component="Cloudflare API" details="API is reachable" run_id=72857ad5-86d7-4dfd-b09b-8c909487d55c status=pass target=api.cloudflare.com:443
-2026-07-28T11:20:44Z INF precheck complete hard_fail=false run_id=72857ad5-86d7-4dfd-b09b-8c909487d55c suggested_protocol=quic
-2026-07-28T12:11:31Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:11:31Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:11:31Z WRN failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:11:31Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:11:31Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:11:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:11:32Z INF Registered tunnel connection connIndex=0 connection=a2260921-2112-4bce-aa45-0ad884629aa2 event=0 ip=198.41.192.167 location=iad15 protocol=quic
-2026-07-28T12:16:34Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:16:34Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:16:34Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:16:34Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:16:34Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:16:35Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:16:35Z INF Registered tunnel connection connIndex=0 connection=02efff21-e659-4eeb-a8f3-6bd0c2ea04dc event=0 ip=198.41.192.167 location=iad10 protocol=quic
-2026-07-28T12:41:50Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:41:50Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:41:50Z WRN failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:41:50Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:41:50Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:41:51Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T12:41:52Z INF Registered tunnel connection connIndex=0 connection=921e46c1-5727-40e7-bc3e-7f08f57c2063 event=0 ip=198.41.192.167 location=iad16 protocol=quic
-2026-07-28T14:49:17Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T14:49:17Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T14:49:17Z WRN failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T14:49:17Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T14:49:17Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T14:49:18Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T14:49:18Z INF Registered tunnel connection connIndex=0 connection=d4308bca-9f13-44d3-a548-1944e900048d event=0 ip=198.41.192.167 location=iad10 protocol=quic
-2026-07-28T16:00:16Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:00:16Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:00:16Z WRN failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:00:16Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:00:16Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:00:17Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:00:17Z INF Registered tunnel connection connIndex=0 connection=3435d47b-9567-4082-a586-b4949adf7f5d event=0 ip=198.41.192.167 location=iad16 protocol=quic
-2026-07-28T16:25:58Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:25:58Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:25:58Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:25:58Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:25:58Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:26:00Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
-2026-07-28T16:26:00Z INF Registered tunnel connection connIndex=0 connection=1a3cd0a7-4f66-48b4-98a8-0991b0bf85cb event=0 ip=198.41.192.167 location=iad10 protocol=quic
+2026-07-28T16:53:41Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-07-28T16:53:41Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-07-28T16:53:45Z INF +--------------------------------------------------------------------------------------------+
+2026-07-28T16:53:45Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-07-28T16:53:45Z INF |  https://recognized-marion-responsibility-contribution.trycloudflare.com                   |
+2026-07-28T16:53:45Z INF +--------------------------------------------------------------------------------------------+
+2026-07-28T16:53:45Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2026-07-28T16:53:45Z INF Version 2026.7.3 (Checksum 9d71c677db00134c1bd4144b7783486b654ad281b1ea62b4972098d19f770f17)
+2026-07-28T16:53:45Z INF GOOS: linux, GOVersion: go1.26.4, GoArch: amd64
+2026-07-28T16:53:45Z INF Settings: map[ha-connections:1 protocol:quic url:http://127.0.0.1:8080]
+2026-07-28T16:53:45Z INF Autoupdate frequency is set autoupdateFreq=86400000
+2026-07-28T16:53:45Z INF Generated Connector ID: 439b2293-2136-44fc-bb75-1e577778c6c2
+2026-07-28T16:53:45Z INF Initial protocol quic
+2026-07-28T16:53:45Z INF ICMP proxy will use 10.1.0.254 as source for IPv4
+2026-07-28T16:53:45Z INF ICMP proxy will use fe80::6245:bdff:fed8:79bf in zone eth0 as source for IPv6
+2026-07-28T16:53:45Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 1001 is not between ping group 1 to 0"
+2026-07-28T16:53:45Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 1001 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
+2026-07-28T16:53:45Z INF ICMP proxy will use 10.1.0.254 as source for IPv4
+2026-07-28T16:53:45Z INF ICMP proxy will use fe80::6245:bdff:fed8:79bf in zone eth0 as source for IPv6
+2026-07-28T16:53:45Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-07-28T16:53:45Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-07-28T16:53:45Z INF Registered tunnel connection connIndex=0 connection=b3a40444-4e46-4af0-a139-732c75881ab3 event=0 ip=198.41.192.167 location=iad09 protocol=quic
+2026-07-28T16:53:51Z INF +-------------------------------------------------------------------------------------+
+2026-07-28T16:53:51Z INF |                               CONNECTIVITY PRE-CHECKS                               |
+2026-07-28T16:53:51Z INF +-------------------------------------------------------------------------------------+
+2026-07-28T16:53:51Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                       |
+2026-07-28T16:53:51Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-07-28T16:53:51Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-07-28T16:53:51Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-07-28T16:53:51Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-07-28T16:53:51Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-07-28T16:53:51Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-07-28T16:53:51Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |
+2026-07-28T16:53:51Z INF |                                                                                     |
+2026-07-28T16:53:51Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'quic' as primary protocol.  |
+2026-07-28T16:53:51Z INF +-------------------------------------------------------------------------------------+
+2026-07-28T16:53:51Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=302e87b2-a28b-448a-b6d2-0348c2eb5a8e status=pass target=region1.v2.argotunnel.com
+2026-07-28T16:53:51Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=302e87b2-a28b-448a-b6d2-0348c2eb5a8e status=pass target=region2.v2.argotunnel.com
+2026-07-28T16:53:51Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=302e87b2-a28b-448a-b6d2-0348c2eb5a8e status=pass target=region1.v2.argotunnel.com
+2026-07-28T16:53:51Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=302e87b2-a28b-448a-b6d2-0348c2eb5a8e status=pass target=region2.v2.argotunnel.com
+2026-07-28T16:53:51Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=302e87b2-a28b-448a-b6d2-0348c2eb5a8e status=pass target=region1.v2.argotunnel.com
+2026-07-28T16:53:51Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=302e87b2-a28b-448a-b6d2-0348c2eb5a8e status=pass target=region2.v2.argotunnel.com
+2026-07-28T16:53:51Z INF precheck component="Cloudflare API" details="API is reachable" run_id=302e87b2-a28b-448a-b6d2-0348c2eb5a8e status=pass target=api.cloudflare.com:443
+2026-07-28T16:53:51Z INF precheck complete hard_fail=false run_id=302e87b2-a28b-448a-b6d2-0348c2eb5a8e suggested_protocol=quic
