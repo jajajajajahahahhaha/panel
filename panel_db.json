@@ -20,7 +20,7 @@
         "use_runner_balancer": false,
         "optimization": false,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "classroom-highlight-include-alerts.trycloudflare.com",
+        "private_tunnel_host": "cross-helps-doom-lyric.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_1": {
@@ -69,7 +69,7 @@
         "use_runner_balancer": true,
         "optimization": true,
         "private_tunnel_enabled": true,
-        "private_tunnel_host": "span-literally-always-eng.trycloudflare.com",
+        "private_tunnel_host": "use-chi-rpg-event.trycloudflare.com",
         "subscription_alias": ""
     },
     "primeconfigfree_2": {
