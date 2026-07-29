@@ -1,1 +1,1 @@
-spas-happens-bedroom-exclusive.trycloudflare.com
+api.trycloudflare.com
